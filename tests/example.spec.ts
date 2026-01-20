@@ -9,5 +9,5 @@ test('login page with failing assertion', async ({ page }) => {
   await page.locator('[data-test="password"]').fill('secret_sauce');
   await page.locator('[data-test="login-button"]').click();
 
-  await expect(page.locator('[data-test="login-button"]')).toHaveText("Dupa"); //expected to fail
+  await expect(page.locator('[data-test="login-button"]')).toHaveText("Dupa"); //expected to fail dum
 });
