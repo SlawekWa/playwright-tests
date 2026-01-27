@@ -12,7 +12,7 @@ test.describe('grupa testow', () => {
     await page.locator('[data-test="password"]').fill('secret_sauce');
     await page.locator('[data-test="login-button"]').click();
   
-    await expect(page.locator('[data-test="login-button"]')).toHaveText("Dupa"); //expected to fail dum
+    // await expect(page.locator('[data-test="login-button"]')).toHaveText("Dupa"); //expected to fail dum
   });
 
 })
