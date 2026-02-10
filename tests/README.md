@@ -29,3 +29,14 @@ npm init playwright@latest
     trace: 'retain-on-failure', // nagranie z krokami w timelinie
     video: 'retain-on-failure', // tworzenie video dla failujących testów
 
+
+  "scripts": {
+    "test": "npx playwright test"  -> npm run test
+  },
+
+
+Pass secret: USER_NAME=me PASSWORD=secret npx playwright test
+eg: USER_NAME=admin PASSWORD=password123 npm run test:api
+
+
+Debug console - mozna podgladac zmienne i robic na nich operacje podczas gdy debugger zatrzymał egzekucje kodu

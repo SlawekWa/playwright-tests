@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx playwright test",
     "test:headed": "npx playwright test --headed",
-    "test:new": "npm run test tests/next-example.spec.ts -- --headed"
+    "test:api": "npm run test tests/api-sandbox.spec.ts"
   },
   "keywords": [],
   "author": "",

@@ -35,7 +35,7 @@ export default defineConfig({
     baseURL: 'https://www.saucedemo.com',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry', // nagranie z krokami w timelinie
+    trace: 'on', // nagranie z krokami w timelinie
     video: 'retain-on-failure', // tworzenie video dla failujących testów
   },
 

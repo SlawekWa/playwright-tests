@@ -5,6 +5,7 @@ test.describe('grupa testow', () => {
   // test.only('login page with failing assertion', async ({ page }) => { - run only this test -> test.only
 
   test('login page with failing assertion', async ({ page }) => {
+    
     await page.goto('https://www.saucedemo.com/');
     // await page.locator('[data-test="username"]').click(); not needed - fill already provide focus
     await page.locator('[data-test="username"]').fill('standard_user');
