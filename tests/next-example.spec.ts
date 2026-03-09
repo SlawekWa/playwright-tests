@@ -9,7 +9,7 @@ test.describe('grupa testow', () => {
     await page.goto('/'); // only beforeEach is using this const - in config baseURL
   })
 
-  test.only('login page with failing assertion', async ({ page }) => {
+  test.only('login page', async ({ page }) => {
     // Arrange
 
     // Act
@@ -17,7 +17,7 @@ test.describe('grupa testow', () => {
 
 
     // await page.locator('[data-test="username"]').click(); not needed - fill already provide focus
-    await page.locator('[data-test="username"]').fill(someStrin);
+    await page.locator('[data-test="username"]').fill('standard_user');
     await page.locator('[data-test="password"]').fill('secret_sauce');
     await page.locator('[data-test="login-button"]').click();
   

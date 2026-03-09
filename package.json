@@ -12,7 +12,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@appetize/playwright": "^1.5.0",
     "@playwright/test": "^1.57.0",
-    "@types/node": "^25.0.9"
+    "@types/node": "^25.0.9",
+    "@zerostep/playwright": "^0.1.5"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "openai": "^6.19.0"
   }
 }
